@@ -1,0 +1,26 @@
+{
+    "name": "increment/rating",
+    "description": "Generic Rating Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kennCK",
+            "email": "kennettecanales@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Increment\\Common\\Rating\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Increment\\Common\\Rating\\RatingServiceProvider"
+            ]
+        }
+    }
+}

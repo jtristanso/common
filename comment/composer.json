@@ -1,0 +1,26 @@
+{
+    "name": "increment/comment",
+    "description": "Dynamic comment backend module or Discussion module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kennCK",
+            "email": "kennettecanales@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Increment\\Common\\Comment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Increment\\Common\\Comment\\CommentServiceProvider"
+            ]
+        }
+    }
+}

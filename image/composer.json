@@ -1,0 +1,25 @@
+{
+    "name": "increment/image",
+    "description": "Image Handler Backend",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kennCK",
+            "email": "kennettecanales@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Increment\\Common\\Image\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Increment\\Common\\Image\\RatingServiceProvider"
+            ]
+        }
+}
